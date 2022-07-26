@@ -32,7 +32,6 @@ const HeroSlider = () => {
         pagination={{
           clickable: true,
         }}
-        infinitScroll ={true}
         navigation={true}
         modules={[Autoplay, Pagination ,Navigation]}
         className="mySwiper !h-[268px] lg:!h-[300px] xl:!h-[400px]"
