@@ -125,10 +125,11 @@ body{
 }
 
 @media (max-width: 1024px) {
-	.custom-class1{
+	.custom-class{
 		display: flex !important;
 		flex-flow: column !important;
 	}
+	/* .custom-class2 */
 }
 @media (min-width: 1024px) {
 	.custom-class{
