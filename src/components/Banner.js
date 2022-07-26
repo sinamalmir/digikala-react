@@ -48,20 +48,20 @@ const Banner = () => {
                 </div> */}
 
             <div className='custom-class '>
-               <div className='flex items-center mb-2 lg:mb-0' >
-                <div className=''>
-                    <img src={banner1} alt="" className='' />                   
+               <div className='flex items-center justify-between mb-2 lg:mb-0' >
+                <div>
+                    <img src={banner1} alt="" className='rounded-lg !ml-2' />                   
                 </div>
-                <div className=''>
-                        <img src={banner1} alt="" className='' />
+                <div>
+                        <img src={banner2} alt="" className='rounded-lg !ml-2' />
                 </div>
                </div>
-               <div className='flex items-center'>
-                <div className=''>
-                        <img src={banner1} alt="" className='' />
+               <div className='flex items-center justify-between'>
+                <div>
+                        <img src={banner3} alt="" className='rounded-lg !ml-2' />
                     </div>
-                    <div className=''>
-                        <img src={banner1} alt="" className='' />
+                    <div>
+                        <img src={banner4} alt="" className='rounded-lg !ml-2' />
                     </div>
                </div>
             </div>

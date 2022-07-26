@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import Category from '../components/Category';
 import Digi from '../components/Digi';
 
 // components
@@ -13,6 +14,7 @@ const Home = () => {
           <Digi />
           <SliderPro />
           <Banner />
+          <Category />
         </>
     );
 };
